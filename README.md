@@ -59,6 +59,7 @@ python3 -m pip install gym==0.12.5
 python3 -m pip install gdown
 python3 -m pip uninstall charset-normalizer
 python3 -m pip install charset-normalizer
+# Dataset can be downloaded from https://huggingface.co/datasets/beckhamc/design_bench_data or our Google Drive as below:
 gdown 'https://drive.google.com/uc?id=1n5R0p_7OAejDts6B_WH6qbBRfT8BEiiN'
 unzip design_bench_data.zip
 rm -rf design_bench_data.zip
